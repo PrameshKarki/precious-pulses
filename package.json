@@ -8,8 +8,11 @@
   },
   "author": "",
   "license": "ISC",
-  "workspaces":[
+  "workspaces": [
     "./packages/client",
     "./packages/server"
-  ]
+  ],
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
 }
