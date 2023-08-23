@@ -10,4 +10,5 @@ class  Prisma{
     }
 }
 
-export default Prisma.getInstance();
+// export default Prisma.getInstance();
+export default new PrismaClient();

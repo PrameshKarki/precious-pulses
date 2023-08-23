@@ -2,14 +2,14 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "./src/index.ts",
   "scripts": {
     "start:dev": "ts-node src/server.ts "
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@prisma/client": "^5.2.0",
+    "@prisma/client": "5.2.0",
     "@trpc/server": "^10.37.1",
     "cors": "^2.8.5",
     "express": "^4.18.2",

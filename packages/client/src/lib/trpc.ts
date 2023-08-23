@@ -1,0 +1,8 @@
+import { defaultContext } from "@tanstack/react-query";
+import { createTRPCReact } from "@trpc/react-query";
+import type { AppRouter } from "server";
+
+
+export const trpc=createTRPCReact<AppRouter>({
+    reactQueryContext:defaultContext
+});
